@@ -1,95 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Javascript Circles</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="navbar.css" />
 </head>
-<body onload="NextQuestion(0)">
-    <main>
-        <!-- creating a modal for when quiz ends -->
-        <div class="modal-container" id="score-modal">
+<body>
 
-            <div class="modal-content-container">
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
 
-                <h1>Congratulations, Quiz Completed.</h1>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="index.html" class="active">Home</a>
+  <div id="myLinks">
+    <a href="neuralcloud.html">Neural Cloud</a>
+    <a href="fgo.html">FGO</a>
 
-                <div class="grade-details">
-                    <p>Attempts : 10</p>
-                    <p>Wrong Answers : <span id="wrong-answers"></span></p>
-                    <p>Right Answers : <span id="right-answers"></span></p>
-                    <p>Grade : <span id="grade-percentage"></span>%</p>
-                    <p ><span id="remarks"></span></p>
-                </div>
-
-                <div class="modal-button-container">
-                    <button onclick="closeScoreModal()">Continue</button>
-                </div>
-
-            </div>
-        </div>
-<!-- end of modal of quiz details-->
-
-        <div class="game-quiz-container">
-            <h1>Neural Cloud</h1>
-
-            <div class="game-details-container">
-
-                <h1>Score : <span id="player-score"></span> / 10</h1>
-                <h1> Question : <span id="question-number"></span> / 10</h1>
-            </div>
-
-            <div class="game-question-container">
-                <h1 id="display-question"></h1>
-            </div>
-
-            <div class="game-options-container">
-
-               <div class="modal-container" id="option-modal">
-
-                    <div class="modal-content-container">
-                         <h1>Please Pick An Option</h1>
-
-                         <div class="modal-button-container">
-                            <button onclick="closeOptionModal()">Continue</button>
-                        </div>
-
-                    </div>
-
-               </div>
-
-                <span>
-                    <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
-                    <label for="option-one" class="option" id="option-one-label"></label>
-                </span>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 
-                <span>
-                    <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
-                    <label for="option-two" class="option" id="option-two-label"></label>
-                </span>
+<div style="padding-left:16px">
+  <h3>Vertical Mobile Navbar</h3>
+  <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+  <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+</div>
 
+<!-- End smartphone / tablet look -->
+</div>
 
-                <span>
-                    <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
-                    <label for="option-three" class="option" id="option-three-label"></label>
-                </span>
+<script src="navbar.js"></script>
 
-
-                <span>
-                    <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
-                    <label for="option-four" class="option" id="option-four-label"></label>
-                </span>
-
-
-            </div>
-
-            <div class="next-button-container">
-                <button onclick="handleNextQuestion()">Next Question</button>
-            </div>
-
-        </div>
-    </main>
-    <script src="index.js"></script>
 </body>
+</html>

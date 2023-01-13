@@ -6,6 +6,19 @@
 	<title>Javascript Circles</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="index.html" class="active">Home</a>
+    <div id="myLinks">
+      <a href="neuralcloud.html">Neural Cloud</a>
+      <a href="fgo.html">FGO</a>
+  
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
 <body onload="NextQuestion(0)">
     <main>
         <!-- creating a modal for when quiz ends -->
@@ -32,7 +45,7 @@
 <!-- end of modal of quiz details-->
 
         <div class="game-quiz-container">
-            <h1>Neural Cloud</h1>
+            <h1>Fate Grand Order</h1>
 
             <div class="game-details-container">
 
@@ -92,4 +105,5 @@
         </div>
     </main>
     <script src="fgo.js"></script>
+    <script src="navbar.js"></script>
 </body>
