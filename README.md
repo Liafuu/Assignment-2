@@ -1,8 +1,8 @@
 # ID Assignment 2
 
 ## Contributors
-@Joanne Chiang Xiu Yi
 @Xin Cheng
+@Joanne Chiang Xiu Yi
 
 ## Description
 A bizarre and fun website that produces trivia and quizzes about mobile games like neural cloud and fate grand order. Shop for merch from both games and get the latest updates!
