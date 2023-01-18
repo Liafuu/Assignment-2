@@ -1,21 +1,19 @@
-
-# Assignment-2
-Assignment 2 Project
-A bizarre and fun website that produces trivia and quizzes about mobile games like neural cloud and fate grand order. Shop for merch from both games and get the latest updates!
-@Xin Cheng
-@Joanne Chiang Xiu Yi
-=======
 # ID Assignment 2
 
+## Contributors
 @Joanne Chiang Xiu Yi
 @Xin Cheng
+
+## Description
+A bizarre and fun website that produces trivia and quizzes about mobile games like neural cloud and fate grand order. Shop for merch from both games and get the latest updates!
 
 ## Design Process
 An Aesthetic and fun design!
+
 ## Features
-Fun Trivias and quizzes about mobile games like neural cloud and fate grand order!
-E-commerce to Shop for merch from both games!
-iframes and more to feature the latest updates!
+1) Fun Trivias and quizzes about mobile games like neural cloud and fate grand order!
+2) E-commerce to Shop for merch from both games!
+3) iframes and more to feature the latest updates!
 
 ### Existing Features
 1) Home/Index Page
@@ -25,17 +23,17 @@ iframes and more to feature the latest updates!
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-E-commerce shop
-signup form
-videos
+1) E-commerce shop
+2) signup form
+3) videos
 
 ## Technologies Used
-iframe
-API
+1) iframe
+2) API
 
 ### Existing Features
-Navbar
-Quizes
+1) Navbar
+2) Quizes
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
