@@ -5,22 +5,20 @@
 @Joanne Chiang Xiu Yi
 
 ## Description
-A bizarre and fun website that produces trivia and quizzes about mobile games like neural cloud and fate grand order. Shop for merch from both games and get the latest updates!
+This site is a trivia website about 2 mobile games in particular for players of those games to test their knowledge on both the lore and game mechanics on the game and place a score on the leaderboards. This site will also sell or redirect users to some merchandise for these 2 games, and show their latest videos from the games' official Youtube channels. 
 
 ## Design Process
-An Aesthetic and fun design!
+---
 
 ## Features
-1) Fun Trivias and quizzes about mobile games like neural cloud and fate grand order!
-2) E-commerce to Shop for merch from both games!
+1) Fun trivias and quizzes about mobile games like Neural Cloud and Fate: Grand Order.
+2) E-commerce to Shop for merch from both games
 3) iframes and more to feature the latest updates!
 
 ### Existing Features
 1) Home/Index Page
 2) Navbar
 3) Quizzes
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 1) E-commerce shop
@@ -34,8 +32,6 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Existing Features
 1) Navbar
 2) Quizes
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 ## Testing
 
