@@ -61,8 +61,49 @@
         <img alt="" width="1" height="1"
             src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
     </div>
-</form>
+</form><br>
   
+<!--Product Item-->
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <!-- Identify your business so that you can collect the payments. -->
+    <input type="hidden" name="business" value="joanne0065@gmail.com">
+
+    <!-- Specify an Add to Cart button. -->
+    <input type="hidden" name="cmd" value="_cart">
+    <input type="hidden" name="add" value="1">
+
+    <!-- Specify details about the item that buyers will purchase. -->
+    <div class="card">
+        <img src="Images/fgo shirt 2.jpeg" alt="John" style="width:100%">
+        <h1>FGO Fes. 2017 Official T-Shirt C</h1>
+        <h2>$61.80 SGD</h2>
+        <p>This is a T-shirt that uses the main visual of the event. Available in 4 sizes.</p>  
+
+        <input type="hidden" name="item_name" value="FGO Fes. 2017 Official T-Shirt C">
+        <input type="hidden" name="amount" value="61.80">
+        <input type="hidden" name="currency_code" value="SGD">
+
+        <!-- Provide the buyer with a text box option field. -->
+        <input type="hidden" name="on0"value="Size">
+        <p>Enter size</p>  
+        <input type="checkbox" name="os0" id="os0" value="S">
+        <label for="vehicle1">S</label><br>
+        <input type="checkbox" name="os0" id="os0" value="M">
+        <label for="vehicle1">M</label><br>
+        <input type="checkbox" name="os0" id="os0" value="L">
+        <label for="vehicle1">L</label><br>
+        <input type="checkbox" name="os0" id="os0" value="XL">
+        <label for="vehicle1">XL</label><br>
+    
+        <!-- Display the payment button. -->
+        <input type="image" name="submit"
+            src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+            alt="Add to Cart">
+        <img alt="" width="1" height="1"
+            src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+    </div>
+</form><br>
+
 <!--Product Item-->
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
     <!-- Identify your business so that you can collect the payments. -->
@@ -90,14 +131,22 @@
         <!-- Provide the buyer with a text box option field. -->
         <input type="hidden" name="on0"value="Size">
         <p>Enter size</p>  
-        <input type="checkbox" name="os0" id="os0" value="Buster">
-        <label for="vehicle1">Buster</label><br>
+        <input type="checkbox" name="os0" id="os0" value="M">
+        <label for="vehicle1">M</label><br>
+        <input type="checkbox" name="os0" id="os0" value="L">
+        <label for="vehicle1">L</label><br>
+        <input type="checkbox" name="os0" id="os0" value="XL">
+        <label for="vehicle1">XL</label><br>
 
         <!-- Provide the buyer with a text box option field. -->
         <input type="hidden" name="on1"value="Design">
         <p>Enter size</p>  
         <input type="checkbox" name="os1" id="os1" value="Buster">
         <label for="vehicle1">Buster</label><br>
+        <input type="checkbox" name="os1" id="os1" value="Arts">
+        <label for="vehicle1">Arts</label><br>
+        <input type="checkbox" name="os1" id="os1" value="Quick">
+        <label for="vehicle1">Quick</label><br>
     
 
         <!-- Display the payment button. -->
@@ -107,7 +156,7 @@
         <img alt="" width="1" height="1"
             src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
     </div>
-</form>
+</form><br>
     <a href="https://www.aniplexplus.com/fateproject">
         <button class="button button1">More</button>
         </a>
