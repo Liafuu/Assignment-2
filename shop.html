@@ -34,6 +34,7 @@
 <h2>Neural Cloud</h2>
 <h2>Fate Grand Order</h2>
 
+<!--Product Item-->
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
     <!-- Identify your business so that you can collect the payments. -->
     <input type="hidden" name="business" value="joanne0065@gmail.com">
@@ -44,19 +45,50 @@
 
     <!-- Specify details about the item that buyers will purchase. -->
     <div class="card">
-        <img src="../Images/shirt.jpg" alt="John" style="width:100%">
-        <h1>Eternal Damnation T-Shirt</h1>
-        <h2>$30.00 USD</h2>
-        <p>This pre-order item is expected to ship the week of December 9, 2022.</p>
-        <p>Printed on Los Angeles Apparel garment dyed, 100% USA Cotton. </p>  
+        <img src="Images/mini cu chan plush.jpeg" alt="John" style="width:100%">
+        <h1>[Reprint] Fate/Grand Order Mini Coo-chan Plush Toy</h1>
+        <h2>$40.00 SGD</h2>
+        <p>The mini cu that appeared in the limited-time event "Magical Girl Travelogue ~Prisma Cause~" of "Fate/Grand Order" is now a stuffed animal!</p>  
 
-        <input type="hidden" name="item_name" value="Eternal Damnation T-Shirt">
-        <input type="hidden" name="amount" value="30.00">
-        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="item_name" value="[Reprint] Fate/Grand Order Mini Coo-chan Plush Toy">
+        <input type="hidden" name="amount" value="40.00">
+        <input type="hidden" name="currency_code" value="SGD">
+    
+        <!-- Display the payment button. -->
+        <input type="image" name="submit"
+            src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+            alt="Add to Cart">
+        <img alt="" width="1" height="1"
+            src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+    </div>
+</form>
+  
+<!--Product Item-->
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <!-- Identify your business so that you can collect the payments. -->
+    <input type="hidden" name="business" value="joanne0065@gmail.com">
+
+    <!-- Specify an Add to Cart button. -->
+    <input type="hidden" name="cmd" value="_cart">
+    <input type="hidden" name="add" value="1">
+
+    <!-- Specify details about the item that buyers will purchase. -->
+    <div class="card">
+        <img src="Images/buster shirt.jpeg" alt="John" style="width:100%">
+        <h1>Fate/Grand Order Command Card (Buster) T-Shirt</h1>
+        <h2>$30.90 SGD</h2>
+        <p>Command cards "Buster", "Arts", and "Quick" from the smartphone game "Fate / Grand Order" appear as T-shirts respectively! We have reproduced it as the illustration in the game!
+
+        </p>  
+        <p>Choose your favorite command and wear it together! Command Card T-Shirt!</p>
+
+        <input type="hidden" name="item_name" value="Fate/Grand Order Command Card (Buster) T-Shirt">
+        <input type="hidden" name="amount" value="30.90">
+        <input type="hidden" name="currency_code" value="SGD">
     
         <!-- Provide the buyer with a text box option field. -->
         <input type="hidden" name="on0"value="Size">
-        <p style="color:white;">Enter your size (S, M, L, XL, 2XL)</p>  
+        <p>Enter size</p>  
         <input type="text" name="os0" id="os0" maxlength="60" value="Enter size here">
         <!-- Display the payment button. -->
         <input type="image" name="submit"
@@ -65,8 +97,8 @@
         <img alt="" width="1" height="1"
             src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
     </div>
-  
-    <a href="https://www.polyphia.com/collections/outerwear">
+</form>
+    <a href="https://www.aniplexplus.com/fateproject">
         <button class="button button1">More</button>
         </a>
       </div>
