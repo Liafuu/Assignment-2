@@ -93,48 +93,48 @@
     },
 
     {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
+        question: "Who is a Servant from the Foreigner Class?",
+        optionA: "Charles Babbage",
+        optionB: "Zhuge Liang (Lord El-Melloi II)",
+        optionC: "Van Gogh",
+        optionD: "Circe",
         correctOption: "optionC"
     },
 
     {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
+        question: "Who is a Servant from the Avenger Class?",
+        optionA: "Space Ishtar",
+        optionB: "Barghest",
+        optionC: "Hephaestion",
+        optionD: "Oberon",
         correctOption: "optionA"
     },
 
 
     {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        question: "Who is a Servant from the Archer Class?",
+        optionA: "Miyamoto Musashi",
+        optionB: "Nikola Tesla",
+        optionC: "Dioscuri",
+        optionD: "Watanabe no Tsuna",
         correctOption: "optionB"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
+        question: "What does Collector EX do?",
+        optionA: "Charges own NP gauge.",
+        optionB: "Increases party's attack for 3 turns.",
+        optionC: "Increases own NP generation rate for 3 turns.",
+        optionD: "Increases own critical star absorption for 3 turns.",
         correctOption: "optionD"
     },
 
     {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
+        question: "What is the Noble Phantasm Type for Eye of the Euryale",
+        optionA: "Anti-Unit",
+        optionB: "Barrier",
+        optionC: "Anti-Army",
+        optionD: "Anti-Summer",
         correctOption: "optionA"
     },
 
