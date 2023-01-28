@@ -74,22 +74,32 @@
 
     <!-- Specify details about the item that buyers will purchase. -->
     <div class="card">
+        <img src="Images/fgo shirt.jpeg" alt="John" style="width:100%">
         <img src="Images/buster shirt.jpeg" alt="John" style="width:100%">
-        <h1>Fate/Grand Order Command Card (Buster) T-Shirt</h1>
+        <h1>Fate/Grand Order Command Card T-Shirt</h1>
         <h2>$30.90 SGD</h2>
         <p>Command cards "Buster", "Arts", and "Quick" from the smartphone game "Fate / Grand Order" appear as T-shirts respectively! We have reproduced it as the illustration in the game!
 
         </p>  
         <p>Choose your favorite command and wear it together! Command Card T-Shirt!</p>
 
-        <input type="hidden" name="item_name" value="Fate/Grand Order Command Card (Buster) T-Shirt">
+        <input type="hidden" name="item_name" value="Fate/Grand Order Command Card T-Shirt">
         <input type="hidden" name="amount" value="30.90">
         <input type="hidden" name="currency_code" value="SGD">
     
         <!-- Provide the buyer with a text box option field. -->
         <input type="hidden" name="on0"value="Size">
         <p>Enter size</p>  
-        <input type="text" name="os0" id="os0" maxlength="60" value="Enter size here">
+        <input type="checkbox" name="os0" id="os0" value="Buster">
+        <label for="vehicle1">Buster</label><br>
+
+        <!-- Provide the buyer with a text box option field. -->
+        <input type="hidden" name="on1"value="Design">
+        <p>Enter size</p>  
+        <input type="checkbox" name="os1" id="os1" value="Buster">
+        <label for="vehicle1">Buster</label><br>
+    
+
         <!-- Display the payment button. -->
         <input type="image" name="submit"
             src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
