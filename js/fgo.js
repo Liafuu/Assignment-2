@@ -2,92 +2,93 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
+        
+        question: "How many classes are there in FGO?",
+        optionA: "14",
+        optionB: "8",
+        optionC: "7",
+        optionD: "13",
         correctOption: "optionD"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "How many saint quartz for one roll?",
+        optionA: "100",
+        optionB: "3",
+        optionC: "40",
+        optionD: "5",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
+        question: "Who is a servant featured in E Pluribus Unum singularity?",
         optionA: "Donald Trump",
         optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        optionC: "George Washington",
+        optionD: "Thomas Edison",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "Who is a servant in berserker class?",
+        optionA: "Emiya Alter",
+        optionB: "Nitocris Alter",
+        optionC: "Cú Chulainn Alter",
+        optionD: "Okita Soji Alter",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
+        question: "Which Servant is from Lostbelt 1?",
+        optionA: "Artoria/Altria",
+        optionB: "Ozymandias",
+        optionC: "Qin Shi Huang",
+        optionD: "Anastasia",
         correctOption: "optionD"
     },
 
     {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "What is the name of Gilgamesh(Caster)'s Noble Phantasm",
+        optionA: "Melammu Dingir",
+        optionB: "Enuma Elish",
+        optionC: "Gate of Babylon",
+        optionD: "Gáe Bolg",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
+        question: "I am the bone of my sword Steel is my body and fire is my blood I have created over a thousand blades Unknown to Death, Nor known to Life. Have withstood pain to create many weapons Yet, those hands will never hold anything So as I pray, _______",
+        optionA: "Enuma Elish.",
+        optionB: "Excalibur.",
+        optionC: "Unlimited Blade Works.",
+        optionD: "Bright Ehangwen.",
         correctOption: "optionC"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: "Who is the Valentine's Day servant for this year on FGO NA?",
+        optionA: "Caren C Hortensia",
+        optionB: "Manannan mac Lir (Bazett)",
+        optionC: "Grigori Rasputin",
+        optionD: "Senji Muramasa",
         correctOption: "optionA"
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
+        question: "Who is a Summer Servant?",
+        optionA: "Kiyohime (Berserker)",
+        optionB: "Nero Claudius (Saber)",
+        optionC: "Jeanne d'Arc (Ruler)",
+        optionD: "Martha (Ruler)",
         correctOption: "optionD"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
+        question: "Who is the Grand Lancer?",
+        optionA: "Merlin",
+        optionB: "Super Orion",
+        optionC: "Fionn mac Cumhaill",
+        optionD: "Romulus-Quirinus",
         correctOption: "optionD"
     },
 
@@ -138,92 +139,92 @@
     },
 
     {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
+        question: "What is the Noble Phantasm Type for Twin Arm - Big Crunch",
+        optionA: "Barrier",
+        optionB: "Anti-Unit",
+        optionC: "Anti-Army",
+        optionD: "Anti-Summer",
         correctOption: "optionC"
     },
 
     {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
+        question: "What does Revelation A do?",
+        optionA: "Gains critical stars every turn for 3 turns.",
+        optionB: "Reduces one enemy Servant's NP damage for 1 turn.",
+        optionC: "Grants party Invincibility for 1 turn.",
+        optionD: "Increases party's defense for 3 turns",
         correctOption: "optionA"
     },
 
     {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
+        question: "What does Eye of the Mind (False) B do?",
+        optionA: "Grants self Guts status for 1 time, 5 turns.",
+        optionB: "Increases own attack for 3 turns. Increases own mental debuff resistance for 3 turns.",
+        optionC: "Grants self Evasion for 1 turn. Increases own critical damage for 3 turns.",
+        optionD: "Grants self Guts status for 1 time, 5 turns. (Stackable with other Guts.)",
         correctOption: "optionC"
     },
 
     {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
+        question: "What does Protection from Arrows B do?",
+        optionA: "Ignores Evasion for 1 turn. (Activates first) Deals damage to one enemy.",
+        optionB: "Removes own debuffs. Recovers own HP.",
+        optionC: "Grants self Guts status for 1 time, 5 turns.",
+        optionD: "Grants self Evasion for 3 attacks. Increases own defense for 3 turns.",
         correctOption: "optionD"
     },
 
     {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
+        question: "Which is True?",
+        optionA: "Sabers have a base damage multiplier of 1.0x.",
+        optionB: "Sabers have a base star absorption of 10.",
+        optionC: "Pretenders deal 1.1x damage to Sabers.",
+        optionD: "Alter Egos deal 0.9x damage to Sabers.",
         correctOption: "optionA"
     },
 
     {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
+        question: "Which is True?",
+        optionA: "Berserkers have a base star generation rate of 7%.",
+        optionB: "Berserkers have a base star absorption of 40.",
+        optionC: "Berserkers have a base death rate of 95%.",
+        optionD: "Foreigners take 0.5x damage from Berserkers.",
         correctOption: "optionD"
     },
 
     {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
+        question: "Which Servant is not from the Saber class?",
+        optionA: "Modred",
+        optionB: "Emiya",
+        optionC: "Altera",
+        optionD: "Gawain",
         correctOption: "optionB"
     },
 
     {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
+        question: "What does Lantern of Chaldea do?",
+        optionA: "Level up the servant",
+        optionB: "Bond Limit Release Material",
+        optionC: "Command Code Slot Release Material",
+        optionD: "Palingenesis",
         correctOption: "optionB"
     },
 
     {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
+        question: "Which Servant is not from the Assassin class?",
+        optionA: "Sasaki Kojirō",
+        optionB: "Hassan of the Hundred Faces",
+        optionC: "Artoria Pendragon (Lily)",
+        optionD: "Semiramis",
         correctOption: "optionC"
     },
 
     {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
+        question: "What is the name of Ereshkigal's Noble Phantasm?",
+        optionA: "Per Aspera Ad Astra",
+        optionB: "Curruid Coinchenn",
+        optionC: "Kur Ki Gal Irkalla",
+        optionD: "Śakra's Vajra",
         correctOption: "optionC"
     }
 
