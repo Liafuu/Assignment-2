@@ -157,20 +157,20 @@
     },
 
     {
-        question: "What does Eye of the Mind (False) B do?",
-        optionA: "Grants self Guts status for 1 time, 5 turns.",
-        optionB: "Increases own attack for 3 turns. Increases own mental debuff resistance for 3 turns.",
-        optionC: "Grants self Evasion for 1 turn. Increases own critical damage for 3 turns.",
-        optionD: "Grants self Guts status for 1 time, 5 turns. (Stackable with other Guts.)",
+        question: "What does Instinct B do?",
+        optionA: "Increases own NP damage for 1 turn.",
+        optionB: "Increases own attack for 1 turn.",
+        optionC: "Gains critical stars.",
+        optionD: "Grants self Guts status for 1 time, 4 turns.",
         correctOption: "optionC"
     },
 
     {
-        question: "What does Protection from Arrows B do?",
-        optionA: "Ignores Evasion for 1 turn. (Activates first) Deals damage to one enemy.",
+        question: "What does King's Return A do?",
+        optionA: "Increases party's Arts performance for 3 turns.",
         optionB: "Removes own debuffs. Recovers own HP.",
-        optionC: "Grants self Guts status for 1 time, 5 turns.",
-        optionD: "Grants self Evasion for 3 attacks. Increases own defense for 3 turns.",
+        optionC: "Increases party's attack for 3 turns.",
+        optionD: "Increases party's critical stars generation rate for 3 turns.",
         correctOption: "optionD"
     },
 
