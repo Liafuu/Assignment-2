@@ -174,11 +174,11 @@
     },
 
     {
-        question: "Which is True?",
-        optionA: "Sabers have a base damage multiplier of 1.0x.",
-        optionB: "Sabers have a base star absorption of 10.",
-        optionC: "Pretenders deal 1.1x damage to Sabers.",
-        optionD: "Alter Egos deal 0.9x damage to Sabers.",
+        question: "How did King Gilgamesh(Caster) die?",
+        optionA: "From overwork and exhaustion.",
+        optionB: "Fighting Saber.",
+        optionC: "Merlin.",
+        optionD: "Fighting Ashiya Douman.",
         correctOption: "optionA"
     },
 
