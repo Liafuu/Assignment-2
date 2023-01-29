@@ -1,29 +1,29 @@
 //[STEP 0]: Make sure our document is A-OK
 $(document).ready(function () {
     //what kind of interface we want at the start 
-    const APIKEY = "4ee43782db78b1e928317d7ffae8447a3bb00";
+    const APIKEY = "63d604e03bc6b255ed0c43db";
     getContacts();
     $("#update-contact-container").hide();
     $("#add-update-msg").hide();
   
     //[STEP 1]: Create our submit form listener
-    $("#contact-submit").on("click", function (e) {
+    $("#contact-submit").on("click", function (e) { 
       //prevent default action of the button 
       e.preventDefault();
   
       //[STEP 2]: let's retrieve form data
       //for now we assume all information is valid
       //you are to do your own data validation
-      let contactName = $("#contact-name").val();
-      let contactEmail = $("#contact-email").val();
-      let contactPassword = $("#contact-msg").val();
+      let formName = $("#form-username").val();
+      let formEmail = $("#form-email").val();
+      let formPassword = $("#form-passw").val();
   
       //[STEP 3]: get form values when user clicks on send
       //Adapted from restdb api
       let jsondata = {
-        "name": contactName,
-        "email": contactEmail,
-        "message": contactPassword
+        "name": formName,
+        "email": formEmail,
+        "password": formPassword
       };
   
       //[STEP 4]: Create our AJAX settings. Take note of API key
@@ -107,7 +107,7 @@ $(document).ready(function () {
           //we want to add on previous content at the same time
           content = `${content}<tr id='${response[i]._id}'><td>${response[i].name}</td>
           <td>${response[i].email}</td>
-          <td>${response[i].Password}</td>
+          <td>${response[i].password}</td>
           <td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td><td><a href='#update-contact-container' class='update' data-id='${response[i]._id}' data-msg='${response[i].message}' data-name='${response[i].name}' data-email='${response[i].email}'>Update</a></td></tr>`;
   
         }
@@ -129,17 +129,17 @@ $(document).ready(function () {
     $("#contact-list").on("click", ".update", function (e) {
       e.preventDefault();
       //update our update form values
-      let contactName = $(this).data("name");
-      let contactEmail = $(this).data("email");
-      let contactPassword = $(this).data("msg");
-      let contactId = $(this).data("id");
+      let formName = $(this).data("name");
+      let formEmail = $(this).data("email");
+      let formPassword = $(this).data("pass");
+      let userId = $(this).data("id");
       console.log($(this).data("msg"));
   
       //[STEP 11]: Load in our data from the selected row and add it to our update contact form 
-      $("#update-contact-name").val(contactName);
-      $("#update-contact-email").val(contactEmail);
-      $("#update-contact-msg").val(contactPassword);
-      $("#update-contact-id").val(contactId);
+      $("#update-contact-name").val(formName);
+      $("#update-contact-email").val(formEmail);
+      $("#update-contact-msg").val(formPassword);
+      $("#update-contact-id").val(userId);
       $("#update-contact-container").show();
   
     });//end contact-list listener for update function
@@ -149,24 +149,24 @@ $(document).ready(function () {
     $("#update-contact-submit").on("click", function (e) {
       e.preventDefault();
       //retrieve all my update form values
-      let contactName = $("#update-contact-name").val();
-      let contactEmail = $("#update-contact-email").val();
-      let contactPassword = $("#update-contact-msg").val();
-      let contactId = $("#update-contact-id").val();
+      let formName = $("#update-contact-name").val();
+      let formEmail = $("#update-contact-email").val();
+      let formPassword = $("#update-contact-msg").val();
+      let userId = $("#update-contact-id").val();
   
       console.log($("#update-contact-msg").val());
       console.log(contactPassword);
   
       //[STEP 12a]: We call our update form function which makes an AJAX call to our RESTDB to update the selected information
-      updateForm(contactId, contactName, contactEmail, contactPassword);
+      updateForm(userId, formName, formEmail, formPassword);
     });//end updatecontactform listener
   
     //[STEP 13]: function that makes an AJAX call and process it 
     //UPDATE Based on the ID chosen
-    function updateForm(id, contactName, contactEmail, contactPassword) {
+    function updateForm(id, formName, formEmail, formPassword) {
       //@TODO create validation methods for id etc. 
   
-      var jsondata = { "name": contactName, "email": contactEmail, "message": contactPassword };
+      var jsondata = { "name": formName, "email": formEmail, "message": formPassword };
       var settings = {
         "async": true,
         "crossDomain": true,
@@ -198,7 +198,7 @@ $(document).ready(function () {
     var settings = {
       "async": true,
       "crossDomain": true,
-      "url": `https://idassign2-6b28.restdb.io/rest/users/${id}`,//update based on the ID
+      "url": `https://idassign2-6b28.restdb.io/rest/login/${id}`,//update based on the ID
       "method": "DELETE",
       "headers": {
         "content-type": "application/json",
