@@ -6,11 +6,6 @@ img {
   border: 10px solid rgb(255, 255, 255);
 }
 
-iframe {
-  max-width: 100%;
-  height: auto;
-}
-
 /* flex box */
 body {
     background-color: rgb(255, 255, 255);
@@ -32,5 +27,11 @@ body {
   
     body {
       background-color: rgb(255, 255, 255);
+      }
+
+      iframe {
+        max-width: 100%;
+        height: auto;
+        border: 10px solid rgb(0, 0, 0);
       }
     }
