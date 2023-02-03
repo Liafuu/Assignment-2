@@ -1,6 +1,7 @@
 .flex-side {
     display: flex;
     background-color: DodgerBlue;
+    justify-content:space-evenly;
   }
   
   .flex-side > div {
