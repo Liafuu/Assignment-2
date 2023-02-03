@@ -13,19 +13,25 @@
         <script src="js/navbar.js" defer></script>
 </head>
 <!-- Top Navigation Menu -->
-<div class="topnav">
-    <a href="index.html" class="active">Home <i class="fa fa-home"></i></a>
-    <div id="myLinks">
-      <a href="neuralcloud.html">Neural Cloud <i class="fa fa-star"></i></a>
-      <a href="fgo.html">FGO <i class="fa fa-star"></i></a>
-      <a href="login.html">Login <i class="fa fa-user"></i></a>
-      <a href="shop.html">Shop <i class="fa fa-shopping-cart"></i></a>
-  
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home <i class="fa fa-home"></i></a>
+    <div class="dropdown">
+      <button class="dropbtn">Quiz
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="neuralcloud.html">Neural Cloud <i class="fa fa-star"></i></a>
+        <a href="fgo.html">FGO <i class="fa fa-star"></i></a>
+      </div>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
+
+    <a href="login.html">Login <i class="fa fa-user"></i></a>
+    <a href="shop.html">Shop <i class="fa fa-shopping-cart"></i></a>
+
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<!-- Top Navigation Menu -->
   
 
 <body onload="NextQuestion(0)">
