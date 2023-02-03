@@ -1,143 +1,143 @@
 
  const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "Which of these units can critically hit with their auto skill?",
+        optionA: "Kuro",
+        optionB: "Lam",
+        optionC: "Hatsuchiri",
+        optionD: "Max",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "In Vulnerability Check 4, which of these bosses appear?",
+        optionA: "Eucharist",
+        optionB: "Angelus",
+        optionC: "Faith",
+        optionD: "Raven",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
+        question: "In Chapter/Sector 5, what did Eucharist described the Professor as?",
+        optionA: "Lame and Weak",
+        optionB: "A Creep",
+        optionC: "Sleep Deprived and Sickly",
+        optionD: "Very Handsome and Cool",
         correctOption: "optionC"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: "In Chapter/Sector 6, why did Odile kill Demiurge?",
+        optionA: "To remove another 'Arbiter'",
+        optionB: "Because she just wanted to",
+        optionC: "She did it in self-defense",
+        optionD: "Thought Demiurge was a threat",
         correctOption: "optionA"
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
-        correctOption: "optionD"
-    },
-
-    {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
+        question: "Which of these Sanctifiers has aided the Professor?",
+        optionA: "Eosphorus",
+        optionB: "Angelus",
+        optionC: "Patience",
+        optionD: "Punishment",
         correctOption: "optionA"
     },
 
+    {
+        question: "In Chapter/Sector 6, How did the Professor call for help?",
+        optionA: "Using Admin Permissions to call the Sanctifiers",
+        optionB: "Persuaded a stranded Sanctifier to call for back-up",
+        optionC: "They did not, a threat was big enough to alert them.",
+        optionD: "They did not, they were there to kill the Professor.",
+        correctOption: "optionA"
+    },
 
     {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        question: "Which of these Enigma Black Hole floors are generally considered hard?",
+        optionA: "Floor 80",
+        optionB: "Floor 127",
+        optionC: "Floor 105",
+        optionD: "Floor 134",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "In Chapter/Sector 1, what weakened Faith?",
+        optionA: "Antonina's Trojan slowing her down",
+        optionB: "Weakened after multiple battles",
+        optionC: "Hannah's Re:Write plan",
+        optionD: "Unintentionally killing Turing",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "In Chapter/Sector 4, why did the Professor let Angelus go?",
+        optionA: "Because it may help them more than winning",
+        optionB: "Because the Professor felt pity for Angelus",
+        optionC: "Because Persicaria could no longer continue fighting",
+        optionD: "They didn't, Angelus just retreated",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Why is Angela considered one of the best units?",
+        optionA: "She decreases foes' Operand Defense and increases allies Hashrate",
+        optionB: "She lets your allies skill faster and delays foes from skilling",
+        optionC: "She can deal large amounts of damage even without functions",
+        optionD: "She gives allies stats when they have killed a foe",
         correctOption: "optionB"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
+        question: "Which of these Algorithm sets are not real?",
+        optionA: "Encapsulation",
+        optionB: "M.L.R Matrix",
+        optionC: "Reiteration",
+        optionD: "Connection",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "How many Pioneering(Gold) Breakthrough Widgets does Breakthrough 6 need?",
+        optionA: "120",
+        optionB: "130",
+        optionC: "135",
+        optionD: "125",
+        correctOption: "optionB"
+    },
+
+
+    {
+        question: "How much EXP is needed to reach Level 70 from 60?",
+        optionA: "652555",
+        optionB: "599500",
+        optionC: "600000",
+        optionD: "700000",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Which of these dolls also appear in Girls: Frontline?",
+        optionA: "Croque",
+        optionB: "Dushevnaya",
+        optionC: "Hatsuchiri",
+        optionD: "Angela",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Which of these classes does Choco belong to?",
+        optionA: "Specialist",
+        optionB: "Sniper",
+        optionC: "Guard",
+        optionD: "Medic",
         correctOption: "optionD"
     },
 
     {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How man states does Nigeria have ?",
+        question: "",
         optionA: "24",
         optionB: "30",
         optionC: "36",
