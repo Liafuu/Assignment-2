@@ -137,93 +137,93 @@
     },
 
     {
-        question: "",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
+        question: "Which of these units appear in the story of Chapter 5-Dark Realm?",
+        optionA: "Jesse",
+        optionB: "Persicaria",
+        optionC: "Riko",
+        optionD: "Raven",
         correctOption: "optionC"
     },
 
     {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
+        question: "How would one unlock non-shop or battle pass costumes/projections?",
+        optionA: "Reaching 3.5* and 4* Neural Expansion",
+        optionB: "Reaching Unit lvl 70",
+        optionC: "Reacing Intimacy lvl 15",
+        optionD: "Reaching 5* Neural Expansion",
         correctOption: "optionA"
     },
 
     {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
-        correctOption: "optionC"
+        question: "What is the gimmick of Chapter 5?",
+        optionA: "Electromagnetic Radiation Devices",
+        optionB: "Entropics/Entropic Tiles",
+        optionC: "Pseudo-Energy Herb/Herb Tiles",
+        optionD: "Tidal Waves/Entropic Tidal Waves",
+        correctOption: "optionB"
     },
 
     {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
+        question: "Why is Enigma Black Hole's gameplay considered vastly different?",
+        optionA: "No Algorithms/Equips",
+        optionB: "It is a Tower Defense gamemode",
+        optionC: "No Specialty Training",
+        optionD: "No Function Cards or Protocols",
         correctOption: "optionD"
     },
 
     {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
-        correctOption: "optionA"
+        question: "What is one existing Procedural Upgrade?",
+        optionA: "Function Card Compatibilization",
+        optionB: "Ultimate Recharge Boost",
+        optionC: "Churning Tidal Waves",
+        optionD: "Tactical Point Compatibilization",
+        correctOption: "optionD"
     },
 
     {
-        question: "How many planets are currently in the solar system ?",
+        question: "How many Specialty Training points you get from one unit per key?",
         optionA: "Eleven",
-        optionB: "Seven",
+        optionB: "Eight",
         optionC: "Nine",
-        optionD: "Eight",
+        optionD: "Seven",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "What is the current max Oasis level?",
+        optionA: "Lvl. 108",
+        optionB: "Lvl. 110",
+        optionC: "Lvl. 117",
+        optionD: "Lvl. 125",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Which time-zone does Neural Cloud use for Maintenance and Daily Resets?",
+        optionA: "GMT 0",
+        optionB: "GMT-8",
+        optionC: "GMT-3",
+        optionD: "GMT+8",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "In the standard shop, how much would 2 Pioneering/gold Breakthrough Widgets cost?",
+        optionA: "5000 Diggcoins",
+        optionB: "60 Ether Tokens",
+        optionC: "10 Quartz Sands",
+        optionD: "50 Glitter Chips",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Assuming 5* Neural Expansion and Lvl 70, How much base Hashrate does Kuro has?",
+        optionA: "630",
+        optionB: "702",
+        optionC: "583",
+        optionD: "689",
         correctOption: "optionD"
-    },
-
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
     }
 
 ]
