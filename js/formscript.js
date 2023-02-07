@@ -21,16 +21,16 @@ $(document).ready(function () {
       //[STEP 3]: get form values when user clicks on send
       //Adapted from restdb api
       let jsondata = {
-        "name": formName,
-        "email": formEmail,
-        "password": formPassword
+        "Name": formName,
+        "Email": formEmail,
+        "Password": formPassword
       };
   
       //[STEP 4]: Create our AJAX settings. Take note of API key
       let settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://idassign2-6b28.restdb.io/rest/users",
+        "url": "https://idassign2-6b28.restdb.io/rest/login",
         "method": "POST", //[cher] we will use post to send info
         "headers": {
           "content-type": "application/json",
@@ -72,7 +72,7 @@ $(document).ready(function () {
       let settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://idassign2-6b28.restdb.io/rest/users",
+        "url": "https://idassign2-6b28.restdb.io/rest/login",
         "method": "GET", //[cher] we will use GET to retrieve info
         "headers": {
           "content-type": "application/json",
@@ -105,9 +105,9 @@ $(document).ready(function () {
           //take note that we can't use += for template literal strings
           //we use ${content} because -> content += content 
           //we want to add on previous content at the same time
-          content = `${content}<tr id='${response[i]._id}'><td>${response[i].name}</td>
-          <td>${response[i].email}</td>
-          <td>${response[i].password}</td>
+          content = `${content}<tr id='${response[i]._id}'><td>${response[i].Name}</td>
+          <td>${response[i].Email}</td>
+          <td>${response[i].Password}</td>
           <td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td><td><a href='#update-contact-container' class='update' data-id='${response[i]._id}' data-msg='${response[i].message}' data-name='${response[i].name}' data-email='${response[i].email}'>Update</a></td></tr>`;
   
         }
@@ -129,10 +129,10 @@ $(document).ready(function () {
     $("#contact-list").on("click", ".update", function (e) {
       e.preventDefault();
       //update our update form values
-      let formName = $(this).data("name");
-      let formEmail = $(this).data("email");
-      let formPassword = $(this).data("pass");
-      let userId = $(this).data("id");
+      let formName = $(this).data("Name");
+      let formEmail = $(this).data("Email");
+      let formPassword = $(this).data("Password");
+      let userId = $(this).data("_id");
       console.log($(this).data("msg"));
   
       //[STEP 11]: Load in our data from the selected row and add it to our update contact form 
@@ -170,7 +170,7 @@ $(document).ready(function () {
       var settings = {
         "async": true,
         "crossDomain": true,
-        "url": `https://idassign2-6b28.restdb.io/rest/users/${id}`,//update based on the ID
+        "url": `https://idassign2-6b28.restdb.io/rest/login/${id}`,//update based on the ID
         "method": "PUT",
         "headers": {
           "content-type": "application/json",
@@ -215,7 +215,7 @@ $(document).ready(function () {
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "https://idassign2-6b28.restdb.io/rest/users",
+  "url": "https://idassign2-6b28.restdb.io/rest/login",
   "method": "POST",
   "headers": {
     "content-type": "application/json",
