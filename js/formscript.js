@@ -56,8 +56,32 @@ $(document).ready(function () {
       
       //@TODO update frontend UI 
       $("#add-update-msg").show().fadeOut(3000);
+
+      //update our table 
+      getContacts();
+      window.location.href="index.html";
     });
   });//end click 
+
+
+  //[STEP] 6
+  //let's create a function to allow you to retrieve all the information in your contacts
+  //by default we only retrieve 10 results
+  function getContacts(limit = 10, all = true) {
+
+    //[STEP 7]: Create our AJAX settings
+    let settings = {
+      "async": true,
+      "crossDomain": true,
+      "url": "https://idassign2-6b28.restdb.io/rest/login",
+      "method": "GET", //[cher] we will use GET to retrieve info
+      "headers": {
+        "content-type": "application/json",
+        "x-apikey": APIKEY,
+        "cache-control": "no-cache"
+      },
+    }
+  };
 })  
 
 //DELETE Based on the ID chosen
