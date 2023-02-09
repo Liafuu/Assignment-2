@@ -8,9 +8,9 @@
 <link rel="stylesheet" type="text/css" href="css/button.css" />
 <link rel="stylesheet" type="text/css" href="css/footer.css" />
 <link rel="stylesheet" type="text/css" href="css/flexbox.css" />
-<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+<link rel="stylesheet" type="text/css" href="css/slideshowgallery.css" />
 <script src="js/navbar.js" defer></script>
-<script src="js/slideshow.js" defer></script>
+<script src="js/slideshowgallery.js" defer></script>
 </head>
 <body>
 
@@ -20,6 +20,7 @@
 <!-- Top Navigation Menu -->
 <div class="topnav" id="myTopnav">
   <a href="index.html" class="active">Home <i class="fa fa-home"></i></a>
+
     <div class="dropdown">
       <button class="dropbtn">Quiz
         <i class="fa fa-caret-down"></i>
@@ -33,6 +34,16 @@
     <a href="login.html">Login <i class="fa fa-user"></i></a>
     <a href="shop.html">Shop <i class="fa fa-shopping-cart"></i></a>
 
+    <div class="dropdown">
+        <button class="dropbtn">Lore
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="neuralcloudlore.html">Neural Cloud Lore<i class="fa fa-star"></i></a>
+          <a href="fgolore.html">FGO Lore<i class="fa fa-star"></i></a>
+        </div>
+      </div>
+
 
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
@@ -40,4 +51,85 @@
 
 <div class="footer">
 
-  <h1>Game Trivia Website</h1>
+  <h1>Fate Grand Order Lore</h1>
+  <h2>Overview</h2>
+  <p>Fate/Grand Order (Japanese: フェイト・グランドオーダー, Hepburn: Feito/Gurando Ōdā) is a free-to-play Japanese mobile game, developed by Lasengle (formerly Delightworks) using Unity,[1][2] and published by Aniplex, a subsidiary of Sony Music Entertainment Japan. </p>
+  <p>The game is centered around turn-based combat where the player, who takes on the role of a "Master", summons and commands powerful familiars known as "Servants" to battle enemies. The story narrative is presented in a visual novel format, and each Servant has their own scenario which the player can explore. Servants are obtained through the gacha mechanic.</p>
+  <!-- Slideshow Gallery Start -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="img_woods_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="img_5terre_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="img_mountains_wide.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="img_lights_wide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="img_nature_wide.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="img_snow_wide.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+
+</div>
+  <!-- Slideshow Gallery End -->
+  
+  <h2>Gameplay</h2>
+  <p>Fate/Grand Order is a turn-based role-playing game with some visual novel elements. The player takes the role of a "Master" and commands a group of individuals called "Servants", who are typically historical, literary, and mythological figures from various cultures. The player commands a party composed of up to 6 Servants in each battle, 3 active members, and 3 reserve members. In each turn, the player is given a set of 5 Command Cards and may use up to 3 of them in a turn to attack. Each Servant has 5 cards the player may use; the cards for all the Servants on the field are shuffled and dealt to the player each turn. The cards have three types: Buster (a heavy attack), Arts (a medium attack that charges a gauge for the Servant's "Noble Phantasm"), and Quick (a light attack that generates Critical Stars that increase the probability of critical hits next turn). If three similar cards are used in one turn, they create a "Chain" which gives a bonus based on the cards' properties. If three cards all corresponding to the same servant are selected, then a "Brave Chain" will ensue, resulting in an extra, more powerful, the attack being added to the end. Each Servant also has skills that can be used before drawing Command Cards; each skill gives effects in the battle, as well as a special command card called "Noble Phantasm" that appears when the gauge is full. The "Master" also has a separate set of skills and special abilities called "Command Spells." Command Spells have a variety of effects and recharge based on real-world time.
+
+    Servants are obtained via a gacha mechanic. Saint Quartz, an in-game currency earned both by playing the game and via real money in-app purchases, is used to summon new Servants and acquire "Craft Essences" which give additional effects when equipped to a servant. This summoning is random, with some servants available commonly, and others rarely. Another currency is "Friend Points", which are more easily acquired, but only can acquire common Servants with them. If multiple copies of the same Servant are acquired, that servant's "Noble Phantasm" can be increased.
+    
+    The differences between mobile and Arcade versions are commonly the characters' appearances: The mobile version uses 2D sprites, while the Arcade version uses 3D models.</p>
+<h2>Plot</h2>
+<p>The game is divided into three canon chapters, all unlocked after clearing the previous scenario.</p>
+<h3>Chapter 1: Observer at the Timeless Temple</h3>
+<p>In 2015, the Chaldea Security Organization draws on experts of both the magical and mundane fields to observe the future of mankind for possible extinction events. Humanity's survival seems assured for the next century—until the verdict suddenly changes, and now eradication of the species awaits at the end of 2016. The cause is unknown, but appears to be linked with the Japanese town of Fuyuki and the events of 2004 during the Fifth Holy Grail War. In response, Chaldea harnesses an experimental means of time travel, the Rayshift technology. With it, Ritsuka Fujimaru (a young man or woman, depending on the player's choice of gender) who was newly recruited to the organization, and a mysterious girl named Mash Kyrielight, can travel back to 2004 and discover how to save humanity. A grand order to fight fate has been declared—an order to change the past and restore the future.</p>
+<h3>Chapter 1.5: Epic of Remnant</h3>
+<p>In the aftermath of the Singularity crisis, Chaldea is under heavy suspicion from various organizations including the U.N. and the Mages Association due to their role in rayshifting in various eras. Upon the suspicion, the group detected a new singularity separate from the ones came before it. Dubbed as Sub-Singularities, Ritsuka is again tasked with handling Singularity Subspecies and solving an even deeper mysteries over their existence.</p>
+<h3>Chapter 2: Cosmos in the Lostbelt</h3>
+<p>Following the completion of the Sub-Singularities, Chaldea would find itself under new management under Goredolf Musik. It turned out that Goredolf was just a scapegoat in a hostile takeover by a mysterious organization, conspiring with an unknown entity known as the Foreign God, to destroy Chaldea and the current human history, reverting the planet back to the Age of Gods. Now on the run, Ritsuka, Mash and the surviving members of Chaldea survived aboard the autonomous vessel Shadow Border. In order to save humanity, the group now travels to different timelines called "Lostbelts"; alternate versions of history that differ drastically from the main human history and were "pruned away" from the primary timeline after having been deemed a dead end. The seven Lostbelts are each represented by a Crypter, former human masters and their servants, each of whom are in competition against one another as well as the Chaldean survivors for the ultimate fate of human history. For Ritsuka Fujimaru, they must make some grave decisions and sacrifices that either will make them a savior ... or a destroyer.</p>
