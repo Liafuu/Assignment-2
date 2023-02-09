@@ -4,12 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/quizstyle.css" />
+	  <link rel="stylesheet" type="text/css" href="css/quizstyle.css" />
     <link rel="stylesheet" type="text/css" href="css/navbar.css" />
     <link rel="stylesheet" type="text/css" href="css/button.css" />
-<link rel="stylesheet" type="text/css" href="css/footer.css" />
-        <script src="js/neuralcloud.js" defer></script>
-        <script src="js/navbar.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+
+    <script src="js/neuralcloud.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+    <script src="js/login.js" defer></script>
 </head>
 <!-- Top Navigation Menu -->
 <div class="topnav" id="myTopnav">
@@ -42,94 +44,110 @@
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 <!-- Top Navigation Menu -->
-  
 
 <body onload="NextQuestion(0)">
     <main>
+
+      <div class="modal-container" id="login-modal">
+        <div class="modal-content-container" class="modal-login">
+          <h1>Please enter your Email and Password to set the score.</h1>
+          <label for="login-email"><input id="login-email" type="email" placeholder="Type your email here..."/></label>
+          <label for="login-passw"><input id="login-passw" type="password" placeholder="Type your password here..." /></label>
+
+          <div class="modal-button-container">
+            <button onclick="saveScore()" id="login-button">Log in</button>
+          </div>
+        </div>
+      </div>
+
         <!-- creating a modal for when quiz ends -->
-        <div class="modal-container" id="score-modal">
+      <div class="modal-container" id="score-modal">
 
-            <div class="modal-content-container">
+          <div class="modal-content-container">
 
-                <h1>Congratulations, Quiz Completed.</h1>
+              <h1>Congratulations, Quiz Completed.</h1>
+              <span id="score-alert"><h1>Score saved.</h1></span>
 
-                <div class="grade-details">
-                    <p>Attempts : 10</p>
-                    <p>Wrong Answers : <span id="wrong-answers"></span></p>
-                    <p>Right Answers : <span id="right-answers"></span></p>
-                    <p>Grade : <span id="grade-percentage"></span>%</p>
-                    <p ><span id="remarks"></span></p>
-                </div>
+              <div class="grade-details">
+                  <p>Attempts : 10</p>
+                  <p>Wrong Answers : <span id="wrong-answers"></span></p>
+                  <p>Right Answers : <span id="right-answers"></span></p>
+                  <p>Grade : <span id="grade-percentage"></span>%</p>
+                  <p ><span id="remarks"></span></p>
+              </div>
 
-                <div class="modal-button-container">
-                    <button onclick="closeScoreModal()">Continue</button>
-                </div>
+              <div class="modal-button-container">
+                  <button onclick="closeScoreModal()" id="quiz-reset">Continue</button>
+                  &nbsp;
+                  <button onclick="startLoginModal()" id="score-submit">Save Score</button>
+              </div>
+          </div>
+      </div>
 
-            </div>
-        </div>
-<!-- end of modal of quiz details-->
+          <!-- end of modal of quiz details-->
 
-        <div class="game-quiz-container">
-            <h1>Neural Cloud</h1>
+      <div class="game-quiz-container">
+          <h1>Neural Cloud</h1>
 
-            <div class="game-details-container">
+          <div class="game-details-container">
 
-                <h1>Score : <span id="player-score"></span> / 10</h1>
-                <h1> Question : <span id="question-number"></span> / 10</h1>
-            </div>
+              <h1>Score : <span id="player-score"></span> / 10</h1>
+              <h1>Question : <span id="question-number"></span> / 10</h1>
+          </div>
 
-            <div class="game-question-container">
-                <h1 id="display-question"></h1>
-            </div>
+          <div class="game-question-container">
+              <h1 id="display-question"></h1>
+          </div>
 
-            <div class="game-options-container">
+          <div class="game-options-container">
 
-               <div class="modal-container" id="option-modal">
+              <div class="modal-container" id="option-modal">
 
-                    <div class="modal-content-container">
-                         <h1>Please Pick An Option</h1>
+                  <div class="modal-content-container">
+                        <h1>Please Pick An Option</h1>
 
-                         <div class="modal-button-container">
-                            <button onclick="closeOptionModal()">Continue</button>
-                        </div>
+                        <div class="modal-button-container">
+                          <button onclick="closeOptionModal()">Continue</button>
+                      </div>
 
-                    </div>
+                  </div>
 
-               </div>
+              </div>
 
-                <span>
-                    <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
-                    <label for="option-one" class="option" id="option-one-label"></label>
-                </span>
-
-
-                <span>
-                    <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
-                    <label for="option-two" class="option" id="option-two-label"></label>
-                </span>
+              <span>
+                  <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                  <label for="option-one" class="option" id="option-one-label"></label>
+              </span>
 
 
-                <span>
-                    <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
-                    <label for="option-three" class="option" id="option-three-label"></label>
-                </span>
+              <span>
+                  <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                  <label for="option-two" class="option" id="option-two-label"></label>
+              </span>
 
 
-                <span>
-                    <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
-                    <label for="option-four" class="option" id="option-four-label"></label>
-                </span>
+              <span>
+                  <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                  <label for="option-three" class="option" id="option-three-label"></label>
+              </span>
 
 
-            </div>
+              <span>
+                  <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                  <label for="option-four" class="option" id="option-four-label"></label>
+              </span>
 
-            <div class="next-button-container">
-                <button onclick="handleNextQuestion()">Next Question</button>
-            </div>
 
-        </div>
+          </div>
 
-      </main>
+          <div class="next-button-container">
+              <button onclick="handleNextQuestion()">Next Question</button>
+          </div>
+
+      </div>
+
+    </main>
+
 <!-- Footer -->
 <div class="flex-side">
 
@@ -172,6 +190,6 @@
 </div>
 
 <!-- Footer end -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>
