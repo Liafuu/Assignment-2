@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/footer.css" />
 <link rel="stylesheet" type="text/css" href="css/post.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/flexbox.css" />
 <script src="js/navbar.js" defer></script>
 <script src="js/formscript.js" defer></script>
 </head>
@@ -38,39 +39,46 @@
 <!-- Top Navigation Menu -->
 
 <div class="footer">
-
   <h1>Shopping</h1>
+  
 
-  <h2>Neural Cloud</h2>
-    <!--Product Item-->
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <!-- Identify your business so that you can collect the payments. -->
-      <input type="hidden" name="business" value="joanne0065@gmail.com">
-  
-      <!-- Specify an Add to Cart button. -->
-      <input type="hidden" name="cmd" value="_cart">
-      <input type="hidden" name="add" value="1">
-  
-      <!-- Specify details about the item that buyers will purchase. -->
-      <div class="card">
-          <img src="images/NC1.jpeg" alt="John" style="width:100%">
-          <h2>[Girls' Frontline] Neural Cloud Trading lenticular Card vol.2 - Blind Box</h2>
-          <h3>$6.99 SGD</h3>
-          <p>Size: Approx.2.2"</p>  
-  
-          <input type="hidden" name="item_name" value="[Girls' Frontline] Neural Cloud Trading lenticular Card vol.2 - Blind Box">
-          <input type="hidden" name="amount" value="6.99">
-          <input type="hidden" name="currency_code" value="SGD">
-      
-          <!-- Display the payment button. -->
-          <input type="image" name="submit"
-              src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-              alt="Add to Cart">
-          <img alt="" width="1" height="1"
-              src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
-      </div>
-  </form><br>
+  <div class="flex-side">
 
+    <div> 
+      <h3>Neural Cloud</h3>
+  
+      <div class="flex-side">
+        <div>
+ <!--Product Item-->
+ <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+  <!-- Identify your business so that you can collect the payments. -->
+  <input type="hidden" name="business" value="joanne0065@gmail.com">
+
+  <!-- Specify an Add to Cart button. -->
+  <input type="hidden" name="cmd" value="_cart">
+  <input type="hidden" name="add" value="1">
+
+  <!-- Specify details about the item that buyers will purchase. -->
+  <div class="card">
+      <img src="images/NC1.jpeg" alt="John" style="width:100%">
+      <h2>[Girls' Frontline] Neural Cloud Trading lenticular Card vol.2 - Blind Box</h2>
+      <h3>$6.99 SGD</h3>
+      <p>Size: Approx.2.2"</p>  
+
+      <input type="hidden" name="item_name" value="[Girls' Frontline] Neural Cloud Trading lenticular Card vol.2 - Blind Box">
+      <input type="hidden" name="amount" value="6.99">
+      <input type="hidden" name="currency_code" value="SGD">
+  
+      <!-- Display the payment button. -->
+      <input type="image" name="submit"
+          src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+          alt="Add to Cart">
+      <img alt="" width="1" height="1"
+          src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+  </div>
+</form><br>
+        </div>
+        <div>
       <!--Product Item-->
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <!-- Identify your business so that you can collect the payments. -->
@@ -100,7 +108,8 @@
                 src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
         </div>
     </form><br>
-
+        </div>
+        <div>
       <!--Product Item-->
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <!-- Identify your business so that you can collect the payments. -->
@@ -130,6 +139,37 @@
                 src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
         </div>
     </form><br>
+        </div>
+      </div>
+    </div>
+    <div> 
+      <h3>Fate Grand Order</h3>
+  
+      <div class="flex-side">
+        <div>
+          <a class="noDecoration" href="https://www.youtube.com/@FGOchannel">FGO Channel<br><i class="fa fa-youtube"></i></a>
+        </div>
+        <div>
+          <a class="noDecoration" href="https://www.youtube.com/@AniplexUSA">AniplexUSA Channel <br><i class="fa fa-youtube"></i></a>
+        </div>
+        <div>
+          <a class="noDecoration" href="https://twitter.com/fgoproject">FGO Twitter<br><i class="fa fa-twitter"></i></a>
+        </div>
+        <div>
+            <a class="noDecoration" href="https://www.fate-go.jp/">FGO JP Official Website <br><i class="fa fa-star"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <h2>Neural Cloud</h2>
+   
+
+
+
+
   <h2>Fate Grand Order</h2>
 
   <!--Product Item-->
