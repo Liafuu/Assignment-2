@@ -54,16 +54,19 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Content
 The contents in the Lore and Quiz pages are from their respective wikipedias.
-NC :https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview
+NC : https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview
 FGO : https://fategrandorder.fandom.com/wiki/Saber
 
 ### Media
 The images and videos in this site are either CGs from their respective games or youtube channels.
 NC : https://www.youtube.com/@NeuralCloudEN
+https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview
 FGO : https://www.youtube.com/@FGOchannel
+https://en.wikipedia.org/wiki/Fate/Grand_Order
 Shop images -
 NC : https://en.animate-onlineshop.jp/collections/all/girls-frontline
 FGO : https://www.aniplexplus.com/fateproject
+
 
 ### Acknowledgements
 None of the content, the images, nor the media used in this project is ours.
