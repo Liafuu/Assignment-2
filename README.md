@@ -73,6 +73,14 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Content
 
 ### Media
+Neural Cloud:
+https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview
+https://en.animate-onlineshop.jp/collections/all/girls-frontline?page=2
+FGO:
+https://fategrandorder.fandom.com/wiki/Saber
+https://en.wikipedia.org/wiki/Fate/Grand_Order
+https://www.aniplexplus.com/fateproject
+
 
 ### Acknowledgements
 
