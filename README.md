@@ -17,16 +17,14 @@ This site is a trivia website about 2 mobile games in particular for players of 
 
 ### Existing Features
 1) Home/Index Page
-2) Navbar
+2) Navbar`
 3) Quizzes
-
-### Features Left to Implement
-1) E-commerce shop
-2) signup form
-3) videos
+4) E-commerce shop
+5) Signup form
+6) Videos
 
 ## Technologies Used
-1) iframe
+1) Iframe
 2) API
 
 ### Existing Features
