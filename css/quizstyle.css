@@ -207,6 +207,10 @@ input[type=radio]:checked ~ .option {
     background-color: rgb(83, 82, 82);
 }
 
+#score-alert {
+    display:none;
+}
+
 @media(min-width : 300px) and (max-width : 350px){
     .game-quiz-container{
         width: 90%;

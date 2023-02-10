@@ -1,4 +1,3 @@
-
  const questions = [
     {
         question: "Which of these units can critically hit with their auto skill?",
@@ -78,7 +77,7 @@
         optionB: "Because the Professor felt pity for Angelus",
         optionC: "Because Persicaria could no longer continue fighting",
         optionD: "They didn't, Angelus just retreated",
-        correctOption: "optionD"
+        correctOption: "optionC"
     },
 
     {
@@ -350,15 +349,15 @@ function handleEndGame() {
 
     // condition check for player remark and remark color
     if (playerScore <= 3) {
-        remark = "Bad Grades, Keep Practicing."
+        remark = "Bad Score, but you may keep trying again."
         remarkColor = "red"
     }
     else if (playerScore >= 4 && playerScore < 7) {
-        remark = "Average Grades, You can do better."
+        remark = "Average, but you may keep trying again."
         remarkColor = "orange"
     }
     else if (playerScore >= 7) {
-        remark = "Excellent, Keep the good work going."
+        remark = "Good job. You can keep trying again to improve more."
         remarkColor = "green"
     }
     const playerGrade = (playerScore / 10) * 100
@@ -370,7 +369,11 @@ function handleEndGame() {
     document.getElementById('wrong-answers').innerHTML = wrongAttempt
     document.getElementById('right-answers').innerHTML = playerScore
     document.getElementById('score-modal').style.display = "flex"
+}
 
+function startLoginModal() {
+    document.getElementById('login-modal').style.display = "flex"
+    document.getElementById('score-modal').style.display = "none"
 }
 
 //closes score modal, resets game and reshuffles questions
@@ -382,9 +385,12 @@ function closeScoreModal() {
     shuffledQuestions = []
     NextQuestion(indexNumber)
     document.getElementById('score-modal').style.display = "none"
+
+    $("login-button").prop("disabled", false);
 }
 
 //function to close warning modal
 function closeOptionModal() {
     document.getElementById('option-modal').style.display = "none"
 }
+
