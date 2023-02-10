@@ -42,24 +42,18 @@ For any scenarios that have not been automated, test the user stories manually a
 	1. add item to cart
 	2. cart would calculate the total and show description for products like size
 3. Quizzes
-	1. 
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
--	With the help of media query and flexboxes, the website resizes itself accordingly to ensure all the contents will be intact.
-
-The size of texts, images and embedded videos are adjusted accordingly.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+	1. Try to go next question without picking an answer
+	2. Quiz would force you to pick an answer before moving on  
 
 No interesting bugs as of now.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 
 ## Credits
 
 ### Content
 The contents in the Lore and Quiz pages are from their respective wikipedias.  
-NC : https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview  ```````
+NC : https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview  
 FGO : https://fategrandorder.fandom.com/wiki/Saber  
 
 ### Media
