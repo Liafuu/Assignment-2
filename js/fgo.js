@@ -374,6 +374,11 @@ function handleEndGame() {
 
 }
 
+function startLoginModal() {
+    document.getElementById('login-modal').style.display = "flex"
+    document.getElementById('score-modal').style.display = "none"
+}
+
 //closes score modal, resets game and reshuffles questions
 function closeScoreModal() {
     questionNumber = 1

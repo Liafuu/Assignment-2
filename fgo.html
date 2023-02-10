@@ -67,6 +67,7 @@
             <div class="modal-content-container">
 
                 <h1>Congratulations, Quiz Completed.</h1>
+                <span id="score-alert"><h1>Score saved.</h1></span>
 
                 <div class="grade-details">
                     <p>Attempts : 10</p>
@@ -78,6 +79,8 @@
 
                 <div class="modal-button-container">
                     <button onclick="closeScoreModal()">Continue</button>
+                    &nbsp;
+                    <button onclick="startLoginModal()" id="score-submit">Save Score</button>
                 </div>
 
             </div>
@@ -188,6 +191,6 @@
 
 
 <!-- Footer end -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>
