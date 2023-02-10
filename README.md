@@ -41,7 +41,8 @@ For any scenarios that have not been automated, test the user stories manually a
 2. Shop
 	1. add item to cart
 	2. cart would calculate the total and show description for products like size
-
+3. Quizzes
+	1. 
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 -	With the help of media query and flexboxes, the website resizes itself accordingly to ensure all the contents will be intact.
@@ -57,21 +58,21 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 
 ### Content
-The contents in the Lore and Quiz pages are from their respective wikipedias.
-NC : https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview
-FGO : https://fategrandorder.fandom.com/wiki/Saber
+The contents in the Lore and Quiz pages are from their respective wikipedias.  
+NC : https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview  ```````
+FGO : https://fategrandorder.fandom.com/wiki/Saber  
 
 ### Media
-The images and videos in this site are either CGs from their respective games or youtube channels.
-NC : https://www.youtube.com/@NeuralCloudEN
-https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview
-FGO : https://www.youtube.com/@FGOchannel
-https://en.wikipedia.org/wiki/Fate/Grand_Order
-Shop images -
-NC : https://en.animate-onlineshop.jp/collections/all/girls-frontline
-FGO : https://www.aniplexplus.com/fateproject
+The images and videos in this site are either CGs from their respective games or youtube channels.  
+NC : https://www.youtube.com/@NeuralCloudEN  
+https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview  
+FGO : https://www.youtube.com/@FGOchannel  
+https://en.wikipedia.org/wiki/Fate/Grand_Order  
+Shop images -  
+NC : https://en.animate-onlineshop.jp/collections/all/girls-frontline  
+FGO : https://www.aniplexplus.com/fateproject  
 
 
 ### Acknowledgements
-None of the content, the images, nor the media used in this project is ours.
+None of the content, the images, nor the media used in this project is ours.  
 All rights goes to their owners.
