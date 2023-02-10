@@ -11,9 +11,9 @@ function saveScore() {
       "url": "https://idassign2-6b28.restdb.io/rest/login",
       "method": "GET",
       "headers": {
-      "content-type": "application/json",
-      "x-apikey": APIKEY,
-      "cache-control": "no-cache"
+        "content-type": "application/json",
+        "x-apikey": APIKEY,
+        "cache-control": "no-cache"
       },
   }
 
@@ -55,7 +55,7 @@ function saveScore() {
             document.getElementById('login-modal').style.display = "none";
             handleEndGame();
             document.getElementById('score-alert').style.display = "flex";
-            $("score-submit").style.display = "none";
+            document.getElementById("score-submit").style.display = "none";
         })
 
       }
