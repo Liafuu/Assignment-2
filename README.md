@@ -57,7 +57,6 @@ The contents in the Lore and Quiz pages are from their respective wikipedias.
 NC :https://gamepress.gg/girlsfrontline/girls-frontline-neural-cloud-lore-overview
 FGO : https://fategrandorder.fandom.com/wiki/Saber
 
-
 ### Media
 The images and videos in this site are either CGs from their respective games or youtube channels.
 NC : https://www.youtube.com/@NeuralCloudEN
