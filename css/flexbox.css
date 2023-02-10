@@ -1,14 +1,20 @@
 .flex-side {
     display: flex;
-    background-color: Blue;
+    background-color: white;
     justify-content:space-evenly;
   }
   
   .flex-side > div {
-    background-color: #f1f1f1;
+    background-color: white;
     margin: 10px;
     padding: 20px;
 
+  }
+
+  .noDecoration {
+    text-decoration: none!important;
+    color:black;
+    border-bottom:none;
   }
 
     /* Responsive layout - makes a one column-layout instead of a two-column layout */
