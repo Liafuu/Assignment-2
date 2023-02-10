@@ -17,11 +17,14 @@ This site is a trivia website about 2 mobile games in particular for players of 
 
 ### Existing Features
 1) Home/Index Page
-2) Navbar`
+2) Navbar
 3) Quizzes
 4) E-commerce shop
-5) Signup form
-6) Videos
+5) signup form
+6) videos 
+7) API Database
+8) Lottie Animation
+
 
 ## Technologies Used
 1) iframe
