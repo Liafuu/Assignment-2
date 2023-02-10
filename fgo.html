@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
         <script src="js/fgo.js" defer></script>
         <script src="js/navbar.js" defer></script>
+        <script src="js/login.js" defer></script>
 </head>
 <!-- Top Navigation Menu -->
 <div class="topnav" id="myTopnav">
@@ -47,6 +48,19 @@
 
 <body onload="NextQuestion(0)">
     <main>
+
+      <div class="modal-container" id="login-modal">
+        <div class="modal-content-container" class="modal-login">
+          <h1>Please enter your Email and Password to set the score.</h1>
+          <label for="login-email"><input id="login-email" type="email" placeholder="Type your email here..."/></label>
+          <label for="login-passw"><input id="login-passw" type="password" placeholder="Type your password here..." /></label>
+
+          <div class="modal-button-container">
+            <button onclick="saveFGOScore()" id="login-button">Log in</button>
+          </div>
+        </div>
+      </div>
+
         <!-- creating a modal for when quiz ends -->
         <div class="modal-container" id="score-modal">
 
