@@ -11,6 +11,12 @@
 
   }
 
+  .noDecoration {
+    text-decoration: none!important;
+    color:black;
+    border-bottom:none;
+  }
+
     /* Responsive layout - makes a one column-layout instead of a two-column layout */
     @media only screen and (max-width: 700px) {
 
