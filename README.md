@@ -24,8 +24,23 @@ This site is a trivia website about 2 mobile games in particular for players of 
 6) Videos
 
 ## Technologies Used
-1) Iframe
+1) iframe
 2) API
+3) css
+4) flexbox
+5) href
+6) javascript
+7) json
+8) label
+9) img
+10) button
+11) input
+12) slideshow
+13) navbar
+14) dropdown for navbar
+15) lottie-player
+16) table
+17) form
 
 ### Existing Features
 1) Navbar
