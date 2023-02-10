@@ -35,9 +35,13 @@ This site is a trivia website about 2 mobile games in particular for players of 
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Subscription form:
-    1. Go to the "Home" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
+1. Signup form:
+	1. Go to the " Signup " page
+	2. Try to submit the empty form and verify that an error message about the required fields appears
+2. Shop
+	1. add item to cart
+	2. cart would calculate the total and show description for products like size
+
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 -	With the help of media query and flexboxes, the website resizes itself accordingly to ensure all the contents will be intact.
